@@ -88,7 +88,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Divider(height: 1),
+          Divider(height: 2), // 2로 바꿔봄
           Expanded(
             child: ListView.builder(
               itemCount: dataList.length,
